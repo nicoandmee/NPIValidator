@@ -1,6 +1,5 @@
 # NPIValidator
-A tool for validating NPI (National Provider Identifier) Numbers
-\nWritten in C# 
+A tool for validating NPI (National Provider Identifier) Numbers - Written in C#
 
 
 Usage:
