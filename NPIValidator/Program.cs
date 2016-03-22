@@ -105,14 +105,13 @@ namespace NPIValidator
 
         public int SumDigits(int number)
         {
-            List<int> digits = new List<int>();
+            int sum = 0;
             while (number > 0)
             {
-                digits.Add(number % 10);
+                sum += (number % 10);
                 number = number / 10;
             }
-            int result = digits.Sum();
-            return digits.Sum();
+            return sum;
         }
 
 
